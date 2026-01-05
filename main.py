@@ -30,7 +30,7 @@ kwh_entry = ctk.CTkEntry(app, placeholder_text="Enter kWh", font=("Arial", 12))
 kwh_entry.pack(pady=10, ipadx=40, ipady=8)
 
 # Hours input
-ctk.CTkLabel(app, text="Compute / cloud usage (hours/month)", font=("Arial", 14)).pack(pady=(10,0))
+ctk.CTkLabel(app, text="Computer / cloud usage (hours/month)", font=("Arial", 14)).pack(pady=(10,0))
 hours_entry = ctk.CTkEntry(app, placeholder_text="Enter hours", font=("Arial", 12))
 hours_entry.pack(pady=10, ipadx=40, ipady=8)
 
